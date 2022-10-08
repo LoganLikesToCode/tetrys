@@ -1,0 +1,34 @@
+{
+   "$schema": "https://json.schemastore.org/chrome-manifest",
+   "action": {
+      "default_icon": {
+         "128": "icon.png",
+         "16": "icon.png",
+         "24": "icon.png",
+         "32": "icon.png",
+         "48": "icon.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "Tetrys"
+   },
+   "background": {
+      "service_worker": "background-bundle.js"
+   },
+   "description": "A fun game that plays in a popup",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "24": "icon.png",
+      "256": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsOcVPnMLIQC2gYxYMDvVAuO7S/7ilsoJNSxYuKRSCO8t/N+k9Bv1RpWpZFJNw2GGJBAkTZJmvLfJeqYWfvtdVMLx0Ix1Gpo4EXD3DGQJVOuTIui8EqhLQL9CzKDpsV3FJ8SiGjD7EdmgDBkJ+k4IiqTsaJPrZi1T9WY5dprvqFvBqBOYWa1/jzC2HuOJApJKAJyENyh7Lp8cEbx3cFTX3IVYylEEtxfyBPW//SgCynbk8i5sxrpGK8LfOV+PTgOVSz1vceZElrKaobTSxWyEZIHTaJZx0Ike5MzUgsqlnkZXiGR+uYI/dutOFrf72aXtb6EP4dub5VBPi7lkc+vFsQIDAQAB",
+   "manifest_version": 3,
+   "name": "Tetrys",
+   "offline_enabled": true,
+   "permissions": [ "storage" ],
+   "short_name": "Tetrys",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.0"
+}
